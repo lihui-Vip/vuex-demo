@@ -1,0 +1,21 @@
+{
+  "presets": [
+    "vue-app",
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "safari >= 7",
+            "ie >= 10"
+          ]
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-vue-jsx",
+    "transform-runtime"
+  ],
+  "comments": false
+}
